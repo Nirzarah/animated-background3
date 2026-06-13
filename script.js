@@ -8,8 +8,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const y = e.clientY / window.innerHeight;
         
         orbs.forEach((orb, index) => {
-            const offsetX = (x - 0.5) * 50 * (index + 1);
-            const offsetY = (y - 0.5) * 50 * (index + 1);
+            const offsetX = (x - 0.4) * 51* (index + 1);
+            const offsetY = (y - 0.4) * 51 * (index + 1);
             
             orb.style.transform = `translate(${offsetX}px, ${offsetY}px)`;
         });
